@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context=".TDFNZscoreCalculator">
+            <TextView
+                android:id="@+id/txt_Measurementname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/measurementname"
+                android:textColor="#4169E1"
+                android:textSize="32sp" />
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow>
+            <TextView
+                android:id="@+id/txt_AgeParam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ageparam"
+                android:textColor="#4169E1"
+                android:textSize="16sp" />
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawSelectorOnTop="true"
+                android:textSize="16sp" />
+            </TableRow>
+            <TableRow>
+
+            <TextView
+                android:id="@+id/txt_SexParam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sexparam"
+                android:textColor="#4169E1"
+                android:textSize="16sp" />
+            <RadioGroup
+                android:id="@+id/rdbGp1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <RadioButton android:id="@+id/rdb1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/male"
+                    android:checked="true"/>
+
+                <RadioButton android:id="@+id/rdb2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/female" />
+
+                <RadioButton android:id="@+id/rdb3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/combined" />
+            </RadioGroup>
+            </TableRow>
+            <TableRow>
+            <TextView
+                android:id="@+id/txt_MeasurementChoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/measurementname"
+                android:textColor="#4169E1"
+                android:textSize="16sp"  />
+            <EditText
+                android:id="@+id/txt_MeasurementParam"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:textSize="16sp" 
+                android:hint="@string/measurementhint" />
+            </TableRow>
+            </TableLayout>
+            <Button
+                android:id="@+id/btn_getzscore"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onClickGetZscore"
+                android:textSize="16sp" 
+                android:text="@string/getzscore" />
+
+<TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" >
+
+                <TableRow>
+            <TextView
+                android:id="@+id/txt_AgeParamChosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ageparam"
+                android:textColor="#696969"
+                android:textSize="16sp"  />
+            <TextView
+                android:id="@+id/txt_Age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/age"
+                android:textSize="16sp"  />
+            </TableRow>
+            <TableRow>
+            <TextView
+                android:id="@+id/txt_SexParamChosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sexparam"
+                android:textColor="#696969"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/txt_Sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textSize="16sp" 
+                android:text="@string/sex" />
+            </TableRow>
+            <TableRow>
+            <TextView
+                android:id="@+id/txt_MeasurementChosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/measurementname"
+                android:textColor="#696969" />
+            <TextView
+                android:id="@+id/txt_Measurement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="@string/measurement"
+                android:textSize="16sp" 
+                android:textColor="#4169E1"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:id="@+id/txt_Zscorelabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                android:textSize="16sp" 
+                    android:text="@string/zscore" />
+            <TextView
+                android:id="@+id/txt_Zscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:textColor="#FF0000"
+                android:textSize="16sp" 
+                android:text="@string/measurement" />
+
+            </TableRow>
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/zscore"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/maxcranwidth"
+                android:visibility="visible"
+                android:contentDescription="@string/zscoreplot" />
+
+            <ImageView
+                android:id="@+id/imagedetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitCenter"
+                android:src="@drawable/maxcranwidth"
+                android:visibility="visible"
+                android:contentDescription="@string/helpbutton" />
+            <TextView
+                android:id="@+id/txt_measurementdetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/measurement"
+                android:textSize="16sp"  />
+           </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

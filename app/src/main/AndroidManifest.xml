@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jimsuplee.tdfnzscorecalculator" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/tdfn"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".TDFNZscoreCalculator"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:label="Calculator"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.jimsuplee.tdfnzscorecalculator.Calculator" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Zscore"
+            android:label="Zscore"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.jimsuplee.tdfnzscorecalculator.Zscore" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Measurements"
+            android:label="Measurements"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="com.jimsuplee.tdfnzscorecalculator.Measurements" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Notes"
+            android:label="Notes" >
+            <intent-filter>
+                <action android:name="com.jimsuplee.tdfnzscorecalculator.Notes" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/txt_tech1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech1" />
+
+            <ImageView
+                android:id="@+id/img_tech1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech1" />
+
+            <TextView
+                android:id="@+id/txt_tech2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech2" />
+
+            <ImageView
+                android:id="@+id/img_tech2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech2" />
+
+            <TextView
+                android:id="@+id/txt_tech3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech3" />
+
+            <ImageView
+                android:id="@+id/img_tech3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech3" />
+
+            <TextView
+                android:id="@+id/txt_tech4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech4" />
+
+            <ImageView
+                android:id="@+id/img_tech4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech4" />
+
+            <TextView
+                android:id="@+id/txt_tech5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech5" />
+
+            <ImageView
+                android:id="@+id/img_tech5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech5" />
+
+            <TextView
+                android:id="@+id/txt_tech6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech6" />
+
+            <ImageView
+                android:id="@+id/img_tech6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech6" />
+
+            <TextView
+                android:id="@+id/txt_tech7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech7" />
+
+            <ImageView
+                android:id="@+id/img_tech7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech7" />
+
+            <TextView
+                android:id="@+id/txt_tech8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech8" />
+
+            <ImageView
+                android:id="@+id/img_tech8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech8" />
+
+            <TextView
+                android:id="@+id/txt_tech9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech9" />
+
+            <ImageView
+                android:id="@+id/img_tech9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech9" />
+
+            <TextView
+                android:id="@+id/txt_tech10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech10" />
+
+            <ImageView
+                android:id="@+id/img_tech10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech10" />
+
+            <TextView
+                android:id="@+id/txt_tech11"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech11" />
+
+            <ImageView
+                android:id="@+id/img_tech11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech11" />
+
+            <TextView
+                android:id="@+id/txt_tech12"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech12" />
+
+            <ImageView
+                android:id="@+id/img_tech12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech12" />
+
+            <TextView
+                android:id="@+id/txt_tech13"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech13" />
+
+            <ImageView
+                android:id="@+id/img_tech13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech13" />
+
+            <TextView
+                android:id="@+id/txt_tech14"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech14" />
+
+            <ImageView
+                android:id="@+id/img_tech14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech14" />
+
+            <TextView
+                android:id="@+id/txt_tech15"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech15" />
+
+            <ImageView
+                android:id="@+id/img_tech15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech15" />
+
+            <TextView
+                android:id="@+id/txt_tech16"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech16" />
+
+            <ImageView
+                android:id="@+id/img_tech17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/tech17" />
+
+            <TextView
+                android:id="@+id/txt_tech17"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/tech17" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
